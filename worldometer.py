@@ -30,16 +30,12 @@ header_texts = []
 for i in headers:
     title = i.text
     header_texts.append(title)
-	    
-	
-
-	
+	    	
 
 df = pd.DataFrame(columns=header_texts)
 	
 
 data_rows = all_rows[1:]
-print(data_rows)
 	
 
 for j in data_rows:
